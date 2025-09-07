@@ -13,4 +13,5 @@ You can enter any text or URL, and it will instantly generate a QR code that you
 
 ---
 
-## 📂 Project Structure
+## Live Demon
+ https://darwina200404.github.io/QR-Code-Generator/
