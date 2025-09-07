@@ -1,0 +1,85 @@
+/* style.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+}
+
+.container {
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 350px;
+}
+
+.container p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.container input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 20px;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+.container input:focus {
+  border-color: #6c63ff;
+  box-shadow: 0 0 8px rgba(108, 99, 255, 0.3);
+}
+
+#qrImgBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 180px;
+  margin-bottom: 20px;
+}
+
+#qrImgBox img {
+  max-width: 150px;
+  max-height: 150px;
+  border: 2px solid #eee;
+  border-radius: 12px;
+  padding: 8px;
+  background: #fafafa;
+  transition: transform 0.3s ease;
+}
+
+#qrImgBox img:hover {
+  transform: scale(1.05);
+}
+
+button {
+  background: #6c63ff;
+  color: #fff;
+  border: none;
+  padding: 12px 18px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #574fd6;
+}
